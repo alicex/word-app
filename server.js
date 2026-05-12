@@ -69,7 +69,7 @@ app.post('/api/words', async (req, res) => {
         Tags: {
           multi_select: []
         },
-        date: {
+        Date: {
           date: {
             start: new Date().toISOString().split('T')[0]
           }
