@@ -70,7 +70,7 @@ app.post('/api/words', async (req, res) => {
         },
         date: {
           date: {
-            start: new Date().toISOString()
+            start: new Date().toISOString().split('T')[0]
           }
         }
       }
